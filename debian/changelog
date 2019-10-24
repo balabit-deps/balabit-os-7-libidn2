@@ -1,3 +1,17 @@
+libidn2 (2.0.4-1.1ubuntu0.2) bionic-security; urgency=medium
+
+  * SECURITY UPDATE: Heap-based buffer overflow
+    - debian/patches/CVE-2019-18224.patch: Restrict output length to 63
+      in lib/lookup.c.
+    - CVE-2019-18224
+  * SECURITY UPDATE: Domain impersonate
+    - debian/patches/CVE-2019-12290.patch: Perform A-Label roundtrip for
+      lookup functions by default in lib/error.c, lib/idn2.h.in,
+      lib/lookup.c, src/blurbs.h, src/idn2.c, src/idn2.ggo.
+    - CVE-2019-12290
+
+ -- Leonidas S. Barbosa <leo.barbosa@canonical.com>  Thu, 24 Oct 2019 15:02:27 -0300
+
 libidn2 (2.0.4-1.1build2) bionic; urgency=medium
 
   * Rebuild against new libunistring 0.9.9.

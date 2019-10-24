@@ -1,6 +1,7 @@
 Source: libidn2
 Section: libs
-Maintainer: Debian Libidn team <help-libidn@gnu.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian Libidn team <help-libidn@gnu.org>
 Uploaders: Simon Josefsson <simon@josefsson.org>,
            Ondřej Surý <ondrej@debian.org>
 Build-Depends: debhelper (>= 9),
